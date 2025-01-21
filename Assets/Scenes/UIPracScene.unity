@@ -2845,7 +2845,7 @@ GameObject:
   - component: {fileID: 8436737841672947027}
   - component: {fileID: 3324838865933503768}
   m_Layer: 5
-  m_Name: Title
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3122,7 +3122,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!222 &1020191146405603894
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3597,7 +3597,7 @@ GameObject:
   - component: {fileID: 608397096886263203}
   - component: {fileID: 6092028008645298231}
   m_Layer: 5
-  m_Name: Left_Gear
+  m_Name: Left_Gear_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4952,7 +4952,7 @@ GameObject:
   - component: {fileID: 4631589416685976900}
   - component: {fileID: 6931588277763909272}
   m_Layer: 5
-  m_Name: Right_Gear
+  m_Name: Right_Gear_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5362,7 +5362,7 @@ GameObject:
   - component: {fileID: 3696896092512618952}
   - component: {fileID: 7560054238227649454}
   m_Layer: 5
-  m_Name: "\u064FSetting"
+  m_Name: "\u064FSettingTxt"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
