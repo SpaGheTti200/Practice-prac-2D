@@ -1,13 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
-using UI.MainMenu;
+using MoreMountains.Feedbacks;
 using UnityEngine;
-using UScreens;
 
 public class UIManager : MonoBehaviour
 {
-    private void Start()
+
+    public static UIManager instance;
+
+    public MMF_Player MmfShowPanel;
+    public MMF_Player MmfHidePanel;
+
+    private void Awake()
     {
-        UScreenRepo.Get<MainMenuController>().Show();
+        instance = this;
     }
 }
